@@ -18,7 +18,7 @@ const FindContainer = () => {
         </div>
         <div className='section'>
           <h4>Step 3</h4>
-          <img className='img' src={wallet} alt='wallet' />
+          <img className='img' src={receive} alt='wallet' />
         </div>
       </div>
     </Wrapper>
