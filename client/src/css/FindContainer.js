@@ -25,6 +25,7 @@ const Wrapper = styled.section`
     }
     img {
       height: 20rem;
+      width: auto;
     }
   }
 `;

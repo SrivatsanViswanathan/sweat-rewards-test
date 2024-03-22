@@ -18,7 +18,7 @@ const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Middleware
-app.use(express.static(path.resolve(__dirname, './public')));
+app.use(express.static(path.resolve(__dirname, './client/dist')));
 app.use(express.json());
 app.use(helmet());
 app.use(mongoSanitize());
@@ -29,7 +29,7 @@ const port = process.env.PORT || 5100;
 app.use('/api/v1/rewards', rewardsRouter);
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './public', 'index.html'));
+  res.sendFile(path.resolve(__dirname, './client/dist', 'index.html'));
 });
 
 // Request not found error

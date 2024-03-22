@@ -3,8 +3,8 @@ import Title from './Title';
 import faq from '../utils/faq';
 import FAQInfo from './FAQInfo';
 import { useState } from 'react';
-import discord from '../assets/images/discord.png';
-import thumbnail from '../assets/images/thumbnail.png';
+import discord from '../assets/images/discord.webp';
+import thumbnail from '../assets/images/thumbnail.webp';
 const FAQContainer = () => {
   const [questions, setQuestions] = useState(faq);
   return (
