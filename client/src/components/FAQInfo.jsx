@@ -11,7 +11,11 @@ const FAQInfo = ({ question }) => {
       <article className='question'>
         <header>
           <h4>{title}</h4>
-          <button className='btn' onClick={() => setShowInfo(!showInfo)}>
+          <button
+            className='btn'
+            onClick={() => setShowInfo(!showInfo)}
+            aria-label='Show Description'
+          >
             {showInfo ? (
               <FontAwesomeIcon icon={faMinus}></FontAwesomeIcon>
             ) : (
