@@ -8,6 +8,7 @@ const Wrapper = styled.section`
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
+    gap: 2rem;
     align-items: center;
   }
   .section {
@@ -29,7 +30,6 @@ const Wrapper = styled.section`
     .container {
       grid-template-columns: 1fr 1fr 1fr;
       justify-content: center;
-      gap: 0rem;
     }
     .section {
       display: grid;
