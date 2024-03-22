@@ -58,7 +58,7 @@ const Landing = () => {
         <SearchContainer></SearchContainer>
         <WinnerContainer></WinnerContainer>
         <FindContainer></FindContainer>
-        <FAQContainer></FAQContainer>
+        {/* <FAQContainer></FAQContainer> */}
       </Wrapper>
     </LandingContext.Provider>
   );
