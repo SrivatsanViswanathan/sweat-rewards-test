@@ -8,9 +8,22 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     gap: 1rem;
+    align-items: center;
+  }
+  .section {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
   h4 {
     margin-bottom: 0.5rem;
+  }
+  .img {
+    height: auto;
+    object-fit: cover;
+    max-width: var(--fixed-width);
+    width: 80vw;
   }
   @media (min-width: 768px) {
     .container {
@@ -23,7 +36,7 @@ const Wrapper = styled.section`
       text-align: center;
       width: 100%;
     }
-    img {
+    .img {
       height: 20rem;
       width: auto;
     }
