@@ -19,6 +19,10 @@ const FAQContainer = () => {
         </section>
         <section className='extra'>
           <div className='video'>
+            <h4>
+              Join David as he draws the winners for some of the Sweat Wallet
+              Rewards!
+            </h4>
             <a
               href='https://www.youtube.com/watch?v=6x-rLCWx3nM'
               target='_blank'
@@ -30,10 +34,14 @@ const FAQContainer = () => {
                 rel='preload'
               />
             </a>
+            <a
+              href='https://discord.gg/sweateconomy'
+              className='discord-link'
+              target='_blank'
+            >
+              <img src={discord} alt='discord' rel='preload' />
+            </a>
           </div>
-          <a href='https://discord.gg/sweateconomy' target='_blank'>
-            <img className='img' src={discord} alt='discord' rel='preload' />
-          </a>
         </section>
       </div>
     </Wrapper>

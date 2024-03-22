@@ -22,9 +22,9 @@ const Wrapper = styled.section`
   .video {
     display: none;
     h4 {
-      padding-bottom: 1rem;
-      line-height: 1.35;
+      line-height: 1.2;
       text-align: center;
+      font-size: 1.5rem;
     }
     img {
       width: 100%;
@@ -32,7 +32,7 @@ const Wrapper = styled.section`
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 992px) {
     .container {
       grid-template-columns: 1fr 1fr;
       justify-content: center;
@@ -48,13 +48,18 @@ const Wrapper = styled.section`
       max-width: 40.2rem;
     }
     a {
-      max-height: 7rem;
       max-width: var(--fixed-width);
     }
     .video {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
       width: 100%;
       height: auto;
+      align-items: center;
+    }
+    .discord-link {
+      max-width: 30rem;
     }
   }
 `;
