@@ -10,7 +10,7 @@ const FindContainer = () => {
       <div className='container'>
         <div className='section'>
           <h4>Step 1</h4>
-          <img className='img' src={receive} alt='profile' />
+          <img className='img' src={profile} alt='profile' />
         </div>
         <div className='section'>
           <h4>Step 2</h4>
@@ -18,7 +18,7 @@ const FindContainer = () => {
         </div>
         <div className='section'>
           <h4>Step 3</h4>
-          <img className='img' src={receive} alt='wallet' />
+          <img className='img' src={wallet} alt='wallet' />
         </div>
       </div>
     </Wrapper>
