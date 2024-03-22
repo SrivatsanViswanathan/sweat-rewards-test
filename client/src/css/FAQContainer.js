@@ -27,6 +27,12 @@ const Wrapper = styled.section`
       text-align: center;
     }
   }
+  .img {
+    height: auto;
+    object-fit: cover;
+    max-width: var(--fixed-width);
+    width: 75vw;
+  }
 
   @media (min-width: 1025px) {
     .container {
