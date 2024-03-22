@@ -20,15 +20,21 @@ const Wrapper = styled.section`
     height: auto;
   }
   .video {
-    display: none;
     h4 {
+      display: none;
       line-height: 1.2;
       text-align: center;
       font-size: 1.5rem;
     }
     img {
+      display: none;
       width: 100%;
       height: auto;
+    }
+    .discord-link {
+      img {
+        display: block;
+      }
     }
   }
 
