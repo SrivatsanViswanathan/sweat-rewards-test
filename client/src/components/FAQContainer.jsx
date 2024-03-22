@@ -26,20 +26,22 @@ const FAQContainer = () => {
             <a
               href='https://www.youtube.com/watch?v=6x-rLCWx3nM'
               target='_blank'
+              aria-label='Sweat Economy YouTube Video'
             >
               <img
                 className='img'
                 src={thumbnail}
                 alt='youtube video'
-                rel='preload'
+                loading='lazy'
               />
             </a>
             <a
               href='https://discord.gg/sweateconomy'
               className='discord-link'
               target='_blank'
+              aria-label='Sweat Economy Discord Server'
             >
-              <img src={discord} alt='discord' rel='preload' />
+              <img src={discord} alt='discord' loading='lazy' />
             </a>
           </div>
         </section>
