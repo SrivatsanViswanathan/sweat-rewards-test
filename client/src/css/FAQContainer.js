@@ -26,6 +26,10 @@ const Wrapper = styled.section`
       line-height: 1.35;
       text-align: center;
     }
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 
   @media (min-width: 1025px) {

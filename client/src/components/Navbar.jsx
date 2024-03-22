@@ -38,6 +38,7 @@ const Navbar = () => {
           <button
             className={isToggle ? 'nav-toggle toggled' : 'nav-toggle'}
             onClick={toggleLinks}
+            aria-label='Navbar Toggle'
           >
             <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
           </button>
