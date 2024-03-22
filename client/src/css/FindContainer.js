@@ -26,7 +26,7 @@ const Wrapper = styled.section`
     max-width: var(--fixed-width);
     width: 80vw;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .container {
       grid-template-columns: 1fr 1fr 1fr;
       justify-content: center;

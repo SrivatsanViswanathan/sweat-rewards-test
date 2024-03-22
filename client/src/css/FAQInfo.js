@@ -42,7 +42,7 @@ const Wrapper = styled.section`
     align-self: center;
     min-width: 2rem;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .question h4 {
       font-size: 1.5rem;
     }

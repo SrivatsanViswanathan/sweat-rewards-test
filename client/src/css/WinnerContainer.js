@@ -48,7 +48,7 @@ const Wrapper = styled.div`
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .container {
       grid-template-columns: 1fr 1fr 1fr;
       justify-content: center;

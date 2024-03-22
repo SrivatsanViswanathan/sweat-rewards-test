@@ -27,12 +27,6 @@ const Wrapper = styled.section`
       text-align: center;
     }
   }
-  .img {
-    height: auto;
-    object-fit: cover;
-    max-width: var(--fixed-width);
-    width: 75vw;
-  }
 
   @media (min-width: 1025px) {
     .container {
@@ -46,15 +40,12 @@ const Wrapper = styled.section`
       align-items: center;
       gap: 1rem;
     }
-    .img {
-      height: 100%;
-    }
     .extra {
       max-width: 40.2rem;
     }
     a {
-      height: 5.1rem;
-      width: auto;
+      max-height: 7rem;
+      max-width: var(--fixed-width);
     }
     .video {
       display: block;

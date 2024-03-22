@@ -46,7 +46,7 @@ const Wrapper = styled.div`
   .show-container {
     height: 4.5rem;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .nav-toggle {
       display: none;
     }
