@@ -63,6 +63,12 @@ const Wrapper = styled.section`
       width: 100%;
       height: auto;
       align-items: center;
+      h4 {
+        display: block;
+      }
+      img {
+        display: block;
+      }
     }
     .discord-link {
       max-width: 30rem;
