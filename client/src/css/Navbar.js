@@ -21,10 +21,6 @@ const Wrapper = styled.div`
     transition: transform 1s;
     cursor: pointer;
   }
-  .nav-toggle:hover {
-    transform: rotate(90deg);
-    transition-duration: 1s;
-  }
   .toggled {
     transform: rotate(90deg);
   }

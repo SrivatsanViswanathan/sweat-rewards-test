@@ -8,7 +8,7 @@ const Wrapper = styled.section`
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
   }
   .section {
