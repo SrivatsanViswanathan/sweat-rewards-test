@@ -3,7 +3,6 @@ import HomeLayout from './pages/HomeLayout';
 import Landing from './pages/Landing';
 import { Winners } from './pages';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 import { action as landingAction } from './pages/Landing';
 // import { loader as landingLoader } from './pages/Landing';
@@ -38,7 +37,6 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router}></RouterProvider>
-      <ReactQueryDevtools initialIsOpen={false}></ReactQueryDevtools>
     </QueryClientProvider>
   );
 };
