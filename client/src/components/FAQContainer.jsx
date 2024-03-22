@@ -23,11 +23,16 @@ const FAQContainer = () => {
               href='https://www.youtube.com/watch?v=6x-rLCWx3nM'
               target='_blank'
             >
-              <img className='img' src={thumbnail} alt='youtube video' />
+              <img
+                className='img'
+                src={thumbnail}
+                alt='youtube video'
+                rel='preload'
+              />
             </a>
           </div>
           <a href='https://discord.gg/sweateconomy' target='_blank'>
-            <img className='img' src={discord} alt='discord' />
+            <img className='img' src={discord} alt='discord' rel='preload' />
           </a>
         </section>
       </div>
