@@ -35,14 +35,14 @@ const SearchContainer = () => {
             value={clipboardText}
             onChange={(e) => setClipboardText(e.target.value)}
           />
-          <button
+          {/* <button
             type='button'
             onClick={handlePaste}
             className='paste-button'
             aria-label='Paste Wallet Address'
           >
             <FontAwesomeIcon icon={faPaste} className='paste-button-icon' />
-          </button>
+          </button> */}
         </div>
         <button
           type='submit'
